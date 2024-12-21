@@ -24,4 +24,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: shreyasingh21/docker_cicd:latest
+        tags: shreyasingh21/docker_cicd:${{ github.sha::7 }}
